@@ -57,9 +57,9 @@ const playRound = function(playerSelection) {
     const newText = document.createElement("p")
     
 
-    newText.innerHTML = "Player choice is " + playerSelection + "<br>";
+    newText.innerHTML = "You chose " + playerSelection + "<br>";
     
-    newText.innerHTML += "Computer choice is " +  computerSelection + "<br>";
+    newText.innerHTML += "Computer chose " +  computerSelection + "<br>";
     
     newText.innerHTML += compVSplayer(computerSelection, playerSelection);
     
@@ -125,7 +125,7 @@ let Cnum = document.createElement("div")
 computerScore.append(Cnum)
 
 
-alert("welcome to my game whoever reach 3 points first wins        GOOD LUCK!")
+alert("welcome to my game whoever reach 3 points first wins                    GOOD LUCK!")
 content.addEventListener("click", function () {
     if (event.target.tagName === 'BUTTON') {
         playRound(event.target.innerText);

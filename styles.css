@@ -2,11 +2,18 @@
 #container {
     display: flex; /* Ensure flexbox layout is applied */  
     flex-direction: row;
+    background-color: beige;
+    margin-left: 200px;
+    margin-right: 200px;
     
     
 
     
     
+}
+body {
+    align-items: center;
+    align-content: center;
 }
 
 
